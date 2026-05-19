@@ -47,3 +47,7 @@ ul{
     margin: 0 auto;
     padding: 0 20px;
 }
+
+.btn btn-light{
+    color: var(--primary-dark);
+}
