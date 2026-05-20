@@ -218,5 +218,48 @@ ul{
     height: 20px;
 }
 
+.split-middle {
+    flex: 1;
+    background: url('https://images.unsplash.com/photo-1551030173-122aabc4489c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80') center/cover no-repeat;
+}
+
+.split-right {
+    flex: 1;
+    background-color: var(--bg-cream-dark);
+    padding: 80px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.split-right h3 {
+    font-size: 24px;
+    color: var(--primary-dark);
+    margin: 20px 0 10px;
+}
+
+.split-right h2 {
+    font-size: 28px;
+    color: var(--primary-dark);
+    margin-bottom: 15px;
+}
+
+.split-right p {
+    font-size: 15px;
+    color: var(--text-muted);
+    margin-bottom: 30px;
+    max-width: 250px;
+}
+
+.arrow-decoration {
+    position: absolute;
+    right: 40px;
+    top: 150px;
+    width: 60px;
+    height: auto;
+}
 
 
