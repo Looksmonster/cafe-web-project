@@ -94,3 +94,34 @@ ul{
 }
 .btn-dark:hover { 
     background-color: var(--primary-brown); }
+
+    /* Sekce heder */
+
+    .hero {
+    background: linear-gradient(rgba(30, 20, 15, 0.7), rgba(30, 20, 15, 0.2)), 
+    url('https://images.unsplash.com/photo-1497935586351-b67a49e012bf?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;
+    padding: 150px 0;
+    color: #FFFFFF;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero h1 {
+    font-size: 54px;
+    line-height: 1.1;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    opacity: 0.9;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+}
