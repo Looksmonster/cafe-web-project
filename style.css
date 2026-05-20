@@ -343,3 +343,28 @@ ul{
     color: var(--text-muted);
 }
 
+/* Sekce kontakt */
+
+.cta-section {
+    background: linear-gradient(rgba(59, 40, 24, 0.8), rgba(59, 40, 24, 0.8)), 
+    url('https://images.unsplash.com/photo-1509042239860-f550ce710b93?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;
+    padding: 100px 0;
+    color: #FFFFFF;
+    position: relative;
+}
+
+.cta-content {
+    max-width: 400px;
+}
+
+.cta-content h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.cta-content p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    opacity: 0.9;
+}
+
