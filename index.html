@@ -1,237 +1,268 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="cs">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Coffee - Nejlepší kavárna v Praze</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style2.css">
+    
 </head>
-
 <body>
 
-    <header>
-        <div class="container header-content">
-            <div class="logo">Coffe</div>
-            <nav>
-                <ul>
-                    <li><a href="#" class="active">Domů</a></li>
-                    <li><a href="#">Nabídka</a></li>
-                    <li><a href="#">O nás</a></li>
-                    <li><a href="#">Služby</a></li>
-                    <li><a href="#">Rezervace</a></li>
-                    <li><a href="#">Kontakt</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
-    <section class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <h1>Vychutnejte si <br>dokonalou kávu!</h1>
-                <p>Pečlivě vybraná zrna, mistrovská příprava a láska ke kávě. Každý šálek je zážitek, na který se budete
-                    těšit.</p>
-                <div class="hero-buttons">
-                    <a href="#" class="btn btn-light">Naše nabídka</a>
-                    <a href="#" class="btn btn-primary">Rezervovat stůl</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-   <section class="features">
-        <div class="container">
-            <h2>Naše nabídka</h2>
-            <div class="features-list">
-                
-                <div class="feature-item">
-                    <div class="icon-circle">☕</div>
-                    <h3>Espresso</h3>
-                    <p>Silná a plná chuť pravé italské kávy, která vás nakopne na celý den.</p>
-                </div>
-
-                <div class="feature-item">
-                    <div class="icon-circle">☕</div>
-                    <h3>Latte</h3>
-                    <p>Jemné spojení espressa a horkého mléka s hebkou mléčnou pěnou.</p>
-                </div>
-
-                <div class="feature-item">
-                    <div class="icon-circle">☕</div>
-                    <h3>Cappuccino</h3>
-                    <p>Dokonalá harmonie kávy, mléka a bohaté pěny pro opravdový zážitek.</p>
-                </div>
-
-                <div class="feature-item">
-                    <div class="icon-circle">☕</div>
-                    <h3>Cold Brew</h3>
-                    <p>Osvěžující studená káva pomalu louhovaná za studena pro jemnější chuť.</p>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <section class="split-section">
-        <div class="split-left">
-            <h2>Proč si vybrat nás?</h2>
-            <ul>
-                <li>Prémiová zrna z celého světa</li>
-                <li>Zkušení baristé s vášní pro kávu</li>
-                <li>Příjemná atmosféra v srdci města</li>
-                <li>Snídaně, dezerty a domácí dobroty</li>
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-custom sticky-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">☕ Coffee</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link active" href="#home">Domů</a></li>
+                <li class="nav-item"><a class="nav-link" href="#menu">Nabídka</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">O nás</a></li>
+                <li class="nav-item"><a class="nav-link" href="#popular">Oblíbené</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Kontakt</a></li>
             </ul>
-            <div>
-                <a href="#" class="btn btn-light">Zjistit více</a>
-            </div>
         </div>
-        <div class="split-middle"></div>
-        <div class="split-right">
-            <h3>Otevírací doba</h3>
-            <h2>Každý den 7:00 - 21:00</h2>
-            <p>Přijďte si vychutnat skvělou kávu, snídani, dezert nebo si jen odpočinout v příjemném prostředí.</p>
-            <a href="#" class="btn btn-dark">Rezervovat stůl</a>
-        </div>
-    </section>
+    </div>
+</nav>
 
-    <section class="specialties">
-        <div class="container spec-container">
-            <div class="spec-left">
-                <div class="spec-subtitle">
-                    
-                </div>
-                <h2>Ranní pohoda</h2>
-                <p>Začněte den s šálkem výběrové kávy a dopřejte si něco dobrého k snídani. Naše kombinace chutí vás nabije energií a zlepší náladu.</p>
-                <div class="spec-buttons">
-                    <a href="#" class="btn btn-outline">Celá nabídka</a>
-                    <a href="#" class="btn btn-dark">Rezervovat</a>
-                </div>
-            </div>
-            
-            <div class="spec-right">
-                <h2>Oblíbené u nás</h2>
-                <div class="popular-items">
-                    <div class="pop-card">
-                        <img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80" alt="Cappuccino" class="pop-img">
-                        <h4>Cappuccino</h4>
-                        <p>89 Kč</p>
-                    </div>
-                    <div class="pop-card">
-                        <img src="https://images.unsplash.com/photo-1541167760496-1628856ab772?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80" alt="Latte" class="pop-img">
-                        <h4>Latte</h4>
-                        <p>89 Kč</p>
-                    </div>
-                    <div class="pop-card">
-                        <img src="https://images.unsplash.com/photo-1461023058943-0708ce151c6a?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80" alt="Cold Brew" class="pop-img">
-                        <h4>Cold Brew</h4>
-                        <p>95 Kč</p>
-                    </div>
-                    <div class="pop-card">
-                        <img src="https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80" alt="Moccaccino" class="pop-img">
-                        <h4>Moccaccino</h4>
-                        <p>99 Kč</p>
-                    </div>
+<!-- HERO SECTION -->
+<section class="hero-section text-white" id="home">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <h1 class="display-3 fw-bold mb-4">Vychutnejte si <br>dokonalou kávu!</h1>
+                <p class="lead mb-5">Pečlivě vybraná zrna, mistrovská příprava a láska ke kávě. Každý šálek je zážitek, na který se budete těšit.</p>
+                <div class="gap-3 d-flex flex-wrap">
+                    <a href="#menu" class="btn btn-light btn-lg">Naše nabídka</a>
+                    <a href="#contact" class="btn btn-coffee btn-lg">Rezervovat stůl</a>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <section class="cta-section">
-        <div class="container">
-            <div class="cta-content">
-                <h2>Přijďte si odpočinout</h2>
-                <p>U nás najdete klid, pohodu a vůni skvělé kávy každý den.</p>
-                <a href="#" class="btn btn-dark" style="background-color: var(--primary-dark); border: 1px solid rgba(255,255,255,0.2);">Rezervovat stůl</a>
-            </div>
-        </div>
-    </section>
-
-    <section class="testimonials">
-        <div class="container test-wrapper">
-            <div class="test-item">
-                <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80" alt="Markéta K." class="test-avatar">
-                <div class="test-content">
-                    <h4>Markéta K.</h4>
-                    <p>Nejlepší cappuccino ve městě! Skvělá atmosféra a milá obsluha.</p>
-                    <div class="stars">★★★★★</div>
+<!-- FEATURES SECTION -->
+<section class="features-section py-5" id="menu">
+    <div class="container">
+        <h2 class="text-coffee-dark text-center mb-5 fs-1 fw-bold">Naše nabídka</h2>
+        <div class="row">
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="feature-card">
+                    <div class="icon-circle">☕</div>
+                    <h3 class="text-coffee-dark fw-bold">Espresso</h3>
+                    <p class="text-muted">Silná a plná chuť pravé italské kávy, která vás nakopne na celý den.</p>
                 </div>
             </div>
-            <div class="test-item">
-                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80" alt="Tomáš P." class="test-avatar">
-                <div class="test-content">
-                    <h4>Tomáš P.</h4>
-                    <p>Výběrová káva, která má opravdu chuť. Rád se sem vracím.</p>
-                    <div class="stars">★★★★★</div>
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="feature-card">
+                    <div class="icon-circle">☕</div>
+                    <h3 class="text-coffee-dark fw-bold">Latte</h3>
+                    <p class="text-muted">Jemné spojení espressa a horkého mléka s hebkou mléčnou pěnou.</p>
                 </div>
             </div>
-            <div class="test-item">
-                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80" alt="Petra J." class="test-avatar">
-                <div class="test-content">
-                    <h4>Petra J.</h4>
-                    <p>Útulné místo, výborné snídaně a domácí dezerty. Doporučuji!</p>
-                    <div class="stars">★★★★★</div>
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="feature-card">
+                    <div class="icon-circle">☕</div>
+                    <h3 class="text-coffee-dark fw-bold">Cappuccino</h3>
+                    <p class="text-muted">Dokonalá harmonie kávy, mléka a bohaté pěny pro opravdový zážitek.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="feature-card">
+                    <div class="icon-circle">☕</div>
+                    <h3 class="text-coffee-dark fw-bold">Cold Brew</h3>
+                    <p class="text-muted">Osvěžující studená káva pomalu louhovaná za studena pro jemnější chuť.</p>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
+<!-- WHY US SECTION -->
+<section class="py-5">
+    <div class="container">
+        <div class="row g-0">
+            <div class="col-lg-6 bg-coffee-dark text-white p-5 d-flex flex-column justify-content-center" id="about">
+                <h2 class="display-5 fw-bold mb-4">Proč si vybrat nás?</h2>
+                <ul class="list-unstyled mb-4">
+                    <li class="mb-3"><i class="bi bi-check-circle me-2"></i> Prémiová zrna z celého světa</li>
+                    <li class="mb-3"><i class="bi bi-check-circle me-2"></i> Zkušení baristé s vášní pro kávu</li>
+                    <li class="mb-3"><i class="bi bi-check-circle me-2"></i> Příjemná atmosféra v srdci města</li>
+                    <li class="mb-3"><i class="bi bi-check-circle me-2"></i> Snídaně, dezerty a domácí dobroty</li>
+                </ul>
+                <div>
+                    <a href="#contact" class="btn btn-light btn-lg">Zjistit více</a>
+                </div>
+            </div>
+            <div class="col-lg-3 split-image"></div>
+            <div class="col-lg-3 bg-body-secondary p-5 d-flex flex-column justify-content-center">
+                <h3 class="text-coffee-dark fw-bold mb-2">Otevírací doba</h3>
+                <h2 class="text-coffee-dark fw-bold mb-3">Každý den 7:00 - 21:00</h2>
+                <p class="text-muted mb-4">Přijďte si vychutnat skvělou kávu, snídani, dezert nebo si jen odpočinout v příjemném prostředí.</p>
+                <a href="#contact" class="btn btn-coffee btn-lg">Rezervovat stůl</a>
+            </div>
+        </div>
+    </div>
+</section>
 
-     <footer>
-        <div class="container">
-            <div class="footer-top">
-                <div class="footer-col" style="flex: 1.5;">
-                    <div class="footer-logo">Coffee</div>
-                    <p>Místo, kde se potkává vášeň pro kávu, kvalitní suroviny a příjemná atmosféra.</p>
-                    <div class="socials">
-                        <a href="#" class="social-icon">f</a>
-                        <a href="#" class="social-icon">ig</a>
-                        <a href="#" class="social-icon">yt</a>
-                        <a href="#" class="social-icon">in</a>
+<!-- SPECIALTIES SECTION -->
+<section class="features-section py-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-4 mb-4 mb-lg-0">
+                <h2 class="text-coffee-dark display-5 fw-bold mb-3">Ranní pohoda</h2>
+                <p class="text-muted mb-4">Začněte den s šálkem výběrové kávy a dopřejte si něco dobrého k snídani. Naše kombinace chutí vás nabije energií a zlepší náladu.</p>
+                <div class="gap-2 d-flex">
+                    <a href="#menu" class="btn btn-outline-dark">Celá nabídka</a>
+                    <a href="#contact" class="btn btn-coffee">Rezervovat</a>
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <h3 class="text-coffee-dark fw-bold mb-4 fs-4">Oblíbené u nás</h3>
+                <div class="row g-3" id="popular">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="pop-card">
+                            <img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80" alt="Cappuccino" class="pop-img">
+                            <div class="p-3">
+                                <h4 class="text-coffee-dark fw-bold">Cappuccino</h4>
+                                <p class="text-coffee-accent fw-bold">89 Kč</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="pop-card">
+                            <img src="https://images.unsplash.com/photo-1541167760496-1628856ab772?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80" alt="Latte" class="pop-img">
+                            <div class="p-3">
+                                <h4 class="text-coffee-dark fw-bold">Latte</h4>
+                                <p class="text-coffee-accent fw-bold">89 Kč</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="pop-card">
+                            <img src="https://images.unsplash.com/photo-1461023058943-0708ce151c6a?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80" alt="Cold Brew" class="pop-img">
+                            <div class="p-3">
+                                <h4 class="text-coffee-dark fw-bold">Cold Brew</h4>
+                                <p class="text-coffee-accent fw-bold">95 Kč</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="pop-card">
+                            <img src="https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80" alt="Moccaccino" class="pop-img">
+                            <div class="p-3">
+                                <h4 class="text-coffee-dark fw-bold">Moccaccino</h4>
+                                <p class="text-coffee-accent fw-bold">99 Kč</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                
-                <div class="footer-col">
-                    <h4>Rychlé odkazy</h4>
-                    <ul>
-                        <li><a href="#">Domů</a></li>
-                        <li><a href="#">Nabídka</a></li>
-                        <li><a href="#">O nás</a></li>
-                        <li><a href="#">Kontakt</a></li>
-                    </ul>
-                </div>
-                
-                <div class="footer-col">
-                    <h4>Informace</h4>
-                    <ul>
-                        <li><span>Otevírací doba</span><br><span>Po – Ne: 7:00 – 21:00</span></li>
-                        <li style="margin-top: 15px;"><span>Rezervace</span><br><span>+420 123 456 789</span><br><span>info@coffee.cz</span></li>
-                    </ul>
-                </div>
-                
-                <div class="footer-col" style="flex: 1.2;">
-                    <h4>Kde nás najdete</h4>
-                    <ul>
-                        <li style="margin-bottom: 15px;"><span>Kavová 123/4</span><br><span>110 00 Praha 1</span></li>
-                    </ul>
-                    <div class="map-placeholder">
-                       
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA SECTION -->
+<section class="cta-hero text-white py-5">
+    <div class="container">
+        <h2 class="display-4 fw-bold mb-3">Přijďte si odpočinout</h2>
+        <p class="lead mb-4">U nás najdete klid, pohodu a vůni skvělé kávy každý den.</p>
+        <a href="#contact" class="btn btn-light btn-lg">Rezervovat stůl</a>
+    </div>
+</section>
+
+<!-- TESTIMONIALS SECTION -->
+<section class="features-section py-5">
+    <div class="container">
+        <h2 class="text-coffee-dark text-center mb-5 fs-1 fw-bold">Co říkají naši hosté</h2>
+        <div class="row">
+            <div class="col-lg-4 mb-4">
+                <div class="testimonial-card border rounded">
+                    <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80" alt="Markéta K." class="testimonial-avatar">
+                    <div>
+                        <h5 class="text-coffee-dark fw-bold mb-2">Markéta K.</h5>
+                        <p class="text-muted small">Nejlepší cappuccino ve městě! Skvělá atmosféra a milá obsluha.</p>
+                        <div class="rating">★★★★★</div>
                     </div>
                 </div>
             </div>
-            
-            <div class="footer-bottom">
-                <div>© 2026 Coffee. Všechna práva vyhrazena.</div>
-                <div class="footer-bottom-links">
-                    <a href="#">Ochrana osobních údajů</a> |
-                    <a href="#">Obchodní podmínky</a>
+            <div class="col-lg-4 mb-4">
+                <div class="testimonial-card border rounded">
+                    <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80" alt="Tomáš P." class="testimonial-avatar">
+                    <div>
+                        <h5 class="text-coffee-dark fw-bold mb-2">Tomáš P.</h5>
+                        <p class="text-muted small">Výběrová káva, která má opravdu chuť. Rád se sem vracím.</p>
+                        <div class="rating">★★★★★</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="testimonial-card border rounded">
+                    <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80" alt="Petra J." class="testimonial-avatar">
+                    <div>
+                        <h5 class="text-coffee-dark fw-bold mb-2">Petra J.</h5>
+                        <p class="text-muted small">Útulné místo, výborné snídaně a domácí dezerty. Doporučuji!</p>
+                        <div class="rating">★★★★★</div>
+                    </div>
                 </div>
             </div>
         </div>
-    </footer>
+    </div>
+</section>
 
+<!-- FOOTER -->
+<footer class="bg-coffee-dark text-white py-5">
+    <div class="container mb-4" id="contact">
+        <div class="row">
+            <div class="col-lg-3 mb-4 mb-lg-0">
+                <h4 class="fw-bold mb-3 fs-3">☕ Coffee</h4>
+                <p class="small">Místo, kde se potkává vášeň pro kávu, kvalitní suroviny a příjemná atmosféra.</p>
+                <div class="gap-2 d-flex mt-3">
+                    <a href="#" class="social-btn">f</a>
+                    <a href="#" class="social-btn">ig</a>
+                    <a href="#" class="social-btn">yt</a>
+                    <a href="#" class="social-btn">in</a>
+                </div>
+            </div>
+            <div class="col-lg-3 mb-4 mb-lg-0">
+                <h5 class="fw-bold mb-3">Rychlé odkazy</h5>
+                <ul class="list-unstyled small">
+                    <li class="mb-2"><a href="#home" class="text-white-50 text-decoration-none">Domů</a></li>
+                    <li class="mb-2"><a href="#menu" class="text-white-50 text-decoration-none">Nabídka</a></li>
+                    <li class="mb-2"><a href="#about" class="text-white-50 text-decoration-none">O nás</a></li>
+                    <li class="mb-2"><a href="#contact" class="text-white-50 text-decoration-none">Kontakt</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 mb-4 mb-lg-0">
+                <h5 class="fw-bold mb-3">Informace</h5>
+                <div class="small">
+                    <p class="mb-3"><strong>Otevírací doba</strong><br><span class="text-white-50">Po – Ne: 7:00 – 21:00</span></p>
+                    <p class="mb-0"><strong>Rezervace</strong><br><span class="text-white-50">+420 123 456 789</span><br><span class="text-white-50">info@coffee.cz</span></p>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <h5 class="fw-bold mb-3">Kde nás najdete</h5>
+                <p class="small mb-3"><span class="text-white-50">Kavová 123/4</span><br><span class="text-white-50">110 00 Praha 1</span></p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2560.4234567890123!2d14.4211!3d50.0857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470b95e0a0a0a0a1%3A0x1234567890abcdef!2sKavov%C3%A1%20123%2F4%2C%20110%2000%20Praha%201!5e0!3m2!1scs!2scz!4v1234567890123" width="100%" height="120" style="border:0; border-radius: 0.375rem;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+    <hr class="bg-white-50">
+    <div class="row mt-4">
+        <div class="col-md-6 small text-white-50">
+            © 2026 Coffee. Všechna práva vyhrazena.
+        </div>
+        <div class="col-md-6 text-end small">
+            <a href="#" class="text-white-50 text-decoration-none me-3">Ochrana osobních údajů</a>
+            <a href="#" class="text-white-50 text-decoration-none">Obchodní podmínky</a>
+        </div>
+    </div>
+</footer>
 
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>
