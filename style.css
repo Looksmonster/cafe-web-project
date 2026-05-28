@@ -15,6 +15,26 @@
             border-color: #A6652B;
             color: white;
         }
+        .btn-coffee:active,
+        .btn-coffee:focus {
+            background-color: var(--accent-color);
+            border-color: var(--accent-color);
+            color: white;
+            box-shadow: none;
+        }
+
+        .btn-light:active,
+        .btn-light:focus {
+            background-color: white;
+            border-color: white;
+            color: var(--primary-dark);
+            box-shadow: none;
+        }
+
+        .btn:active,
+        .btn:focus {
+            box-shadow: none;
+        }
 
         .bg-coffee-dark {
             background-color: var(--primary-dark) !important;
